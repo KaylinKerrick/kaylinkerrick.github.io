@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connect Four Game — Kaylin Kerrick</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="inner-page">
+
+  <div class="page-bg"></div>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">Kaylin Kerrick</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="animation.html">Animation</a></li>
+        <li><a href="experience.html">Experience</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <a class="back-link" href="projects.html">← Back to projects</a>
+
+    <div class="page-header">
+      <p class="page-tag">ENGR 1181 Software Design Project</p>
+      <h1>Connect Four Game</h1>
+      <p class="meta">Fall 2024 · Class Project</p>
+      <div class="tags">
+        <span class="tag">MATLAB</span>
+        <span class="tag">Interactive Graphics</span>
+        <span class="tag">Game Development</span>
+        <span class="tag">Sprite Design</span>
+      </div>
+    </div>
+
+    <div class="img-featured" style="margin-bottom:2.5rem;">
+      <img src="images/connect-four-ad.png" alt="Connect Four" style="max-width:100%;border-radius:8px;" />
+    </div>
+
+    <div class="content-section">
+      <h2>Overview</h2>
+      <p>Worked in a small team to develop a two-player Connect Four game in MATLAB using the Simple Game Engine library. The project features a graphical game board, custom-designed sprites, mouse-controlled piece placement, turn-based gameplay, and automatic win detection for horizontal, vertical, and diagonal connection patterns.</p>
+    </div>
+
+    <div class="content-section">
+      <h2>How it works</h2>
+      <p>Players take turns clicking a column to drop their game piece onto the board. The program determines the lowest available position in the selected column, updates the display, and checks for winning combinations after every move. A custom win-checking function scans the board for four matching pieces in a row horizontally, vertically, and diagonally. Once a player wins, the game displays the result and allows users to start a new match.</p>
+      <div class="img-featured" style="margin-top:1.25rem;">
+        <img src="images/connect-four-demo-gif.gif" alt="Connect Four Gameplay Demo" style="max-width:100%;border-radius:8px;" />
+      </div>
+    </div>
+
+    <div class="content-section">
+      <h2>What I learned</h2>
+      <p>This project strengthened my MATLAB programming skills by introducing graphical game development and algorithm design. I gained experience implementing game logic, creating custom visual assets, testing, and collaborating with a team to build a game from concept to completion.</p>
+    </div>
+
+    <div class="img-grid">
+      <div class="media-placeholder"><span>🖼</span> <img src="images/connect-four-winning-condition.png" alt="Winning Condition" /></div>
+      <div class="media-placeholder"><span>🖼</span> <img src="images/connect-four-sprite-design.png" alt="Sprite Design" /></div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Kaylin Kerrick &nbsp;&middot;&nbsp; Basking Ridge, NJ &nbsp;&middot;&nbsp;
+    <a href="tel:9086726831">(908) 672-6831</a> &nbsp;&middot;&nbsp;
+    <a href="mailto:kaylinmkerrick@gmail.com">kaylinmkerrick@gmail.com</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
